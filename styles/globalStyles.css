@@ -20,6 +20,7 @@ img {
   --color-grey-4:  #e9ecef;
   --color-grey-5:  #f1f3f5;
   --color-grey-6:  #ffffff;
+  --color-opacity: #00000090;
   --radius-default: 0.5rem;
 
   --title-1: 3rem;
