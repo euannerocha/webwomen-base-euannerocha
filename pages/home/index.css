@@ -83,7 +83,7 @@ main>div>ul>li{
     border-radius: 8px;
 }
 
-main>div>ul>li>h1{
+main>div>ul>li>div>h1{
     font-size: var(--title-4);
 }
 
@@ -127,6 +127,7 @@ main>div>ul>li>div{
     color: var(--color-grey-6);
     height: 32px;
     font-size: var(--text-2);
+    max-width: 60%;
 }
 
 main>div>ul>li>p{
@@ -161,4 +162,50 @@ main>div>ul>li>p{
     background-color: var(--color-grey-5);
     padding: 11px 16px;
     border-radius: 8px;
+}
+
+@media(min-width: 768px){
+
+main{
+    display: flex;
+    gap: 60px;
+}
+
+body>header>div{
+    height: 50vh;
+}
+
+body>header>div>div>button{
+    max-width: 40%;
+}
+
+#divVagasSelecionadas{
+ max-width: 40%;
+ margin-top: 70px;
+ font-size: var(--title-5);
+ padding: 20px;
+}
+
+#divVagasSelecionadas>li{
+    max-width: 245px;
+}
+
+#ulVagasSelecionadas>li{
+    padding: 5px;
+}
+
+#ulVagasSelecionadas>li>div{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    box-sizing: border-box;
+}
+
+.divModalidadeEButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 }
