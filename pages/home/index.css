@@ -1,6 +1,7 @@
 body{
     width: 100vw;
     height: 100vh;
+    background-color: var(--color-grey-5);
 }
 
 body>header>div{
@@ -78,6 +79,8 @@ main>div>ul>li{
     display: flex;
     flex-direction: column;
     gap: 28px;
+    background-color: var(--color-grey-6);
+    border-radius: 8px;
 }
 
 main>div>ul>li>h1{
@@ -86,6 +89,7 @@ main>div>ul>li>h1{
 
 main>div>ul>li>div{
     display: flex;
+    gap: 25px;
 }
 
 .divInfosEmpresaECidade{
@@ -128,4 +132,33 @@ main>div>ul>li>div{
 main>div>ul>li>p{
     font-size: var(--text-2);
     color: var(--color-grey-2);
+}
+
+#divVagasSelecionadas{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    width: 100%;
+    background-color: var(--color-grey-6);
+    margin: 30px auto auto auto;
+}
+
+#divVagasSelecionadas>h1{
+    font-size: var(--text-4);
+    margin: 32px auto auto 32px;
+}
+
+#divVagasSelecionadas>span{
+    font-size: var(--text-2);
+    color: var(--color-grey-2);
+    margin: 74px auto auto 32px;
+}
+
+#ulVagasSelecionadas>li>div>img{
+    width: 44px;
+    height: 38px;
+    margin-left: 22px;
+    background-color: var(--color-grey-5);
+    padding: 11px 16px;
+    border-radius: 8px;
 }
